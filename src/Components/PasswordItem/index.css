@@ -1,0 +1,46 @@
+li {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 90px;
+  border-color: #94a3b8;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  margin-right: 18px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  width: 70px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #0b69ff;
+  margin-right: 10px;
+  padding: 0;
+}
+.profile > p {
+  text-align: center;
+}
+
+.content > p {
+  margin: 0;
+  margin-bottom: 6px;
+}
+.content > img {
+  width: 80%;
+}
+li > button {
+  background-color: transparent;
+  border-style: none;
+  margin-left: auto;
+}
+button > img {
+  width: 25px;
+  height: 25px;
+}

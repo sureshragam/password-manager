@@ -1,0 +1,140 @@
+.main-container {
+  background-color: #9ba9eb;
+  height: 100vh;
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: auto;
+  font-family: 'Roboto';
+}
+.main-container > img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.form-row {
+  width: 100%;
+  height: 60%;
+  border-radius: 8px;
+  background-color: #5763a5;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.col-1 {
+  flex-basis: 50%;
+  height: 90%;
+  background-color: #454f84;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+}
+form > div {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 0;
+}
+form > div > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+form > div > input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  border-width: 0;
+  border-left-width: 2px;
+  border-color: #94a3b8;
+  margin: 0px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.button-row {
+  background-color: transparent;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.button-row > button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #0b69ff;
+  color: white;
+}
+.col-2 {
+  flex-basis: 50%;
+  height: 90%;
+  text-align: right;
+}
+.col-2 > img {
+  width: 85%;
+  height: 100%;
+  text-align: center;
+}
+
+.passwords-row {
+  border-radius: 8px;
+  background-color: #5763a5;
+  width: 100%;
+  height: 50%;
+  color: white;
+  padding: 20px;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.password-col-1 {
+  display: flex;
+  align-items: center;
+}
+.password-col-1 > .heading {
+  font-size: 30px;
+  margin-right: 20px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.search-container > img {
+  width: 20px;
+  height: 20px;
+}
+.search-container > input {
+  border-width: 0;
+  border-left-width: 1px;
+  outline: none;
+  border-color: #94a3b8;
+}
+.row-2 {
+  text-align: right;
+}
+.password-row-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-row-image > img {
+  width: 350px;
+  height: 250px;
+}
+
+ul {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
